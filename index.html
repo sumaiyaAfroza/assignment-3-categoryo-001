@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pets web</title>
+    <!-- icon -->
+    <script src="https://kit.fontawesome.com/78bf9cd01e.js" crossorigin="anonymous"></script>
+    <!-- google font -sora -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <!-- google font ADlam display -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap" rel="stylesheet">
+    <!-- tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- daisy UI -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    
+     <style>
+        .font-sora{
+            font-family: "Sora", serif;
+        }
+        .font-ADlam{
+            font-family: "ADLaM Display", serif;
+        }
+
+     </style>
+    
+</head>
+<body>
+    <header class="" >
+        <!-- navbar  -->
+        <div class="bg-orange-50">
+            <div class="container mx-auto font-sora flex justify-between  py-4"> 
+                <div class="flex items-center">
+                    
+                    <img class="flex" src="images/logo-header.png" alt="">
+                    
+                    <h2 class="text-xl hidden  lg:flex ">Browse <span class="text-yellow-400">4</span>Pets</h2>
+                </div>
+                <nav class=" list-none gap-8 items-center hidden md:flex lg:flex">
+                    <li><a href="">Breeds</a></li>
+                    <li><a href=""></a>Contact us</li>
+                </nav>
+                <div class=" items-center gap-3 hidden lg:flex">
+                    <p><i class="fa-regular fa-bell"></i></p>
+                    <p><i class="fa-solid fa-magnifying-glass"></i></p>
+                    <button class="border border-yellow-400 text-black px-4 py-2 rounded-lg">login</button>
+                    <button class="bg-yellow-300 text-black px-4 py-2 rounded-lg">Register</button>
+                </div>
+                <div class="flex justify-end lg:hidden sm:justify-start text-3xl">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+        </div>
+
+ 
+        <!-- banner -->
+        <div class=" container mx-auto mt-8 relative flex-col">
+            <div class=" min-h-screen">
+                <div class=" lg:absolute flex-col top-32  space-y-5 ">
+                    <h1 class="font-ADlam text-5xl">Pamper Your Pet,<br> Because They Deserve <br> the Bes</h1>
+                    <p class="text-gray-600">Discover a world of treats, toys, and essentials handpicked for <br> your furry friends. Shop now and make tails wag with joy!</p>
+                    <button class="bg-yellow-300 text-black px-4 py-2 rounded-lg">Find a pet</button>
+                </div>
+                <div>
+                    <img src="images/banner.png" alt="">
+                </div>
+            </div>
+        </div> 
+
+    </header>
+    
+</body>
+</html>
